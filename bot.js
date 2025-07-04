@@ -264,7 +264,7 @@ class Faroswap {
       proxies = (await fs.readFile('proxy.txt', 'utf-8')).split('\n').map(line => line.trim());
     } catch {}
     this.log('Faroswap 自动机器人');
-    this.log('Rey? <水印>');
+    this.log('牛逼');
     this.log('账户总数: ' + chalk.white(accounts.length));
     for (let i = 0; i < accounts.length; i++) {
       const privKey = accounts[i];
